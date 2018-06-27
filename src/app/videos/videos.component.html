@@ -1,0 +1,10 @@
+<h1 class="text-center">Youtube Video API</h1><br/>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let video of videos$.items" >
+    <a href="{{staticPathUrl + video.id}}">{{video.snippet.title}}</a> <br/>
+    <br/>
+    <a href="{{staticPathUrl + video.id}}"><img src="{{video.snippet.thumbnails.medium.url}}" alt="No internet" /></a>
+    
+  </li>
+</ul>
+<br/><br/>

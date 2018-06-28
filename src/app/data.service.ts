@@ -9,6 +9,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getVideos(){
-    return this.http.get('https://www.googleapis.com/youtube/v3/videos/?regionCode=IN&chart=mostPopular&part=snippet%2CcontentDetails%2Cstatistics&key=AIzaSyAxaWHTI1S5Z1LvCDt_xCnKeOaCCpDCwR8')
+    return this.http.get('https://www.googleapis.com/youtube/v3/videos/?regionCode=IN&chart=mostPopular&part=snippet%2CcontentDetails%2Cstatistics&key={YOUR-API-KEY}')
   }
 }

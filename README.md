@@ -14,14 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## About this project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+I built this to help one of my former students with his college degree project. It uses Angular 6 front-end framework to implement the youtube API('https://developers.google.com/youtube/v3/'). You'll need to create a Google API key and give it permission to access youtube API. This is a very simple project which can also be implemented using html and vanilla javascript/jQuery. I found some difficulty to implement an iframe for the videos, maybe the src attributes needs to be sanitized. I myself is very new to Angular. If someone can help implement iframes for the videos I would really appreciate that. As of now, the thumbnails are displayed and a link is provided as href to the videos.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on this project contact at ('http://www.jinsoft.in')
